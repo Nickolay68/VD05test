@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Главная{% endblock %}
+
+{% block content %}
+<h1 class="mb-8">Состав семьи</h1>
+
+<div class="row">
+    <!-- Отец -->
+    <div class="col-md-4 text-center">
+        <img src="/static/images/VD02 ДЗ.jpg" alt="Отец" class="img-fluid rounded-circle mb-2" style="width: 200px; height: 200px;">
+        <h3>Молодцов Андрей Иванович</h3>
+        <p>Email: <a href="mailto:molodcov@yandex.ru">molodcov@yandex.ru</a></p>
+        <p>Дата рождения: 06.10.1995</p>
+        <p>Город: Омск</p>
+    </div>
+
+    <!-- Мать -->
+    <div class="col-md-4 text-center">
+        <img src="/static/images/ДЗ VD02+.jpg" alt="Мать" class="img-fluid rounded-circle mb-2" style="width: 200px; height: 200px;">
+        <h3>Умницова Глафира Ивановна</h3>
+        <p>Email: <a href="mailto:umnicova@yandex.ru">umnicova@yandex.ru</a></p>
+        <p>Дата рождения: 06.10.1996</p>
+        <p>Город: Томск</p>
+    </div>
+
+    <!-- Дочь -->
+    <div class="col-md-4 text-center">
+        <img src="/static/images/ДЗ VD02.jpg" alt="Дочь" class="img-fluid rounded-circle mb-2" style="width: 200px; height: 200px;">
+        <h3>Акулина Ивановна</h3>
+        <p>Email: <a href="mailto:akulina@mail.ru">akulina@mail.ru</a></p>
+        <p>Дата рождения: 06.10.2016</p>
+        <p>Город: Новосибирск</p>
+    </div>
+</div>
+{% endblock %}
